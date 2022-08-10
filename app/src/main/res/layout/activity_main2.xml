@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/text_nomi"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Although successful internationally, Huawei has faced difficulties in some markets, due to undue state support, links to the People's Liberation Army, and cybersecurity concerns that Huawei's infrastructure equipment may enable surveillance by the Chinese government.[19][20] With the development of 5G wireless"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+</LinearLayout>
